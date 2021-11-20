@@ -8,6 +8,7 @@
 .nav-bar {
     background-color: #222831;
     height: 4.5rem;
+    position: sticky;
 }
 
 .nav-items {
@@ -37,7 +38,7 @@
 .nav-home {
     position: absolute;
     top: 1.4685rem;
-    left: 4rem;
+    left: 8rem;
 }
 
     /*Hovering*/
@@ -45,4 +46,67 @@
     color: white;
     opacity: 1;
 }
+
+
+/*Main section*/
+.main {
+    background-color: #393E46; 
+    height: 33.9rem;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    display: inline-block;
+    height: 12rem;
+    width: 40rem;
+    color: white;
+    text-align: justify;
+}
+
+.image {
+    top: 12rem;
+    right: 10rem;
+    text-align: right;
+}
+
+.text {
+    top: 10.8rem;
+    left: 10rem;
+
+}
+
+img {
+    width: 15rem;
+    height: 13.188rem;
+}
+
+.content .heading {
+    font-size: 3.3rem;
+}
+
+.content .paragraph {
+    margin: 1.5rem 0;
+    line-height: 1.4;
+    font-size: 1.3rem;
+}
+
+/*Footer Section*/
+.footer {
+    padding: 4rem 0;
+    background-color: #393E46;
+    text-align: center;
+    color: white;
+}
+
+.social-links {
+    margin: 0 0 1rem;
+    letter-spacing: 0.5rem;
+}
+
+.fab {
+    font-size: 1.3rem;
+    color: white;
+}
+
 
